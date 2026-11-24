@@ -41,7 +41,7 @@ export default function LoginPage() {
       </section>
 
       <section className="login-card">
-        <img className="login-logo-mobile" src="/brand/logo.png" alt="Kyolex Infosys" />
+        <img className="login-logo-mobile" src="/brand/logo.png" alt="Easy Print Solutions" />
         <h1>Sign in</h1>
         <p className="muted">Use the email and password your admin gave you.</p>
         <form onSubmit={submit} className="login-form">

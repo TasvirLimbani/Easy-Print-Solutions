@@ -2,10 +2,10 @@ import './globals.css';
 import RegisterSW from '@/components/RegisterSW';
 
 export const metadata = {
-  title: 'Kyolex Infosys',
-  description: 'Kyolex Infosys: tasks, employees and party reports',
+  title: 'Easy Print Solutions',
+  description: 'Easy Print Solutions: tasks, employees and party reports',
   manifest: '/manifest.json',
-  appleWebApp: { capable: true, title: 'Kyolex Infosys', statusBarStyle: 'default' },
+  appleWebApp: { capable: true, title: 'Easy Print Solutions', statusBarStyle: 'default' },
   icons: { icon: '/icons/icon-192.png', apple: '/icons/apple-touch-icon.png' },
 };
 

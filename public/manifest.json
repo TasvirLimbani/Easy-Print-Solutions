@@ -1,7 +1,7 @@
 {
-  "name": "Kyolex Infosys",
-  "short_name": "Kyolex",
-  "description": "Kyolex Infosys: tasks, employees and party reports",
+  "name": "Easy Print Solutions",
+  "short_name": "Easy Print Solutions",
+  "description": "Easy Print Solutions: tasks, employees and party reports",
   "start_url": "/dashboard",
   "scope": "/",
   "display": "standalone",

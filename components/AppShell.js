@@ -38,7 +38,7 @@ export default function AppShell({ children }) {
     if (blocked) router.replace('/tasks');
   }, [blocked, router]);
 
-  if (!user || blocked) return <div className="splash"><img className="splash-mark" src="/brand/mark.png" alt="Kyolex Infosys" /></div>;
+  if (!user || blocked) return <div className="splash"><img className="splash-mark" src="/brand/mark.png" alt="Easy Print Solutions" /></div>;
 
   const items = NAV.filter((n) => n.roles.includes(user.role));
   const current = items.find((n) => pathname.startsWith(n.href));
@@ -48,7 +48,7 @@ export default function AppShell({ children }) {
     <UserContext.Provider value={user}>
       <div className="shell">
         <aside className="sidebar">
-          <div className="brand"><img className="brand-mark" src="/brand/mark.png" alt="" /><span className="brand-name"><b>Kyolex</b> Infosys</span></div>
+          <div className="brand"><img className="brand-mark" src="/brand/mark.png" alt="" /><span className="brand-name"><b>EASY</b> PRINT</span></div>
           <nav className="side-nav">
             {items.map((n) => (
               <Link key={n.href} href={n.href} className={pathname.startsWith(n.href) ? 'active' : ''}>
@@ -68,7 +68,7 @@ export default function AppShell({ children }) {
 
         <div className="main">
           <header className="topbar">
-            <h1 className="page-title"><img className="brand-mark mobile-only" src="/brand/mark.png" alt="Kyolex Infosys" />{current?.label || 'Kyolex Infosys'}</h1>
+            <h1 className="page-title"><img className="brand-mark mobile-only" src="/brand/mark.png" alt="Easy Print Solutions" />{current?.label || 'Easy Print Solutions'}</h1>
             <div className="topbar-actions">
               <NotificationBell />
               <button className="icon-btn mobile-only" onClick={logout} aria-label="Sign out"><Icon name="logout" /></button>
