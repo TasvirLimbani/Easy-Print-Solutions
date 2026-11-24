@@ -14,7 +14,7 @@ function oneSignal() {
       window.OneSignalDeferred = window.OneSignalDeferred || [];
       window.OneSignalDeferred.push((OneSignal) =>
         OneSignal.init({
-          appId: '07f7620e-d523-4542-9928-3de7a51aadd6',
+          appId: 'bda88c77-8273-46d7-9af4-eee5b60efc53',
           // worker: /OneSignalSDKWorker.js, OneSignal's default, which also loads the app's /sw.js
           allowLocalhostAsSecureOrigin: true,
         }).then(() => resolve(OneSignal), reject)
